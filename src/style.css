@@ -1,0 +1,73 @@
+*{
+  border: 1px solid black;
+}
+h1{
+  font-family: fantasy;
+  text-align: center;
+  font-size: 400%;
+  letter-spacing: 10px;
+}
+.div_head{
+  text-align: center;
+  border: rgb(46, 46, 46) solid;
+  margin: 2% 10% 0% 10%;
+}
+.div_head_centre{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  padding: 2%;
+}
+.p_nom,.p_imag,.p_duree,.p_note{
+  text-align: start;
+  margin: 0%;
+}
+.input_nom,.input_imag,.input_duree,.input_note{
+  border: rgb(46, 46, 46) 2px solid;
+  border-radius: 4px;
+  width: 100%;
+}
+.div_nom,.div_imag,.div_duree,.div_note{
+  margin: 2%;
+  padding: 2%;
+  height: 41%;
+  width: 41%;
+}
+.bouton_ajouter{
+  margin: 5%;
+  width: 100px;
+}
+
+
+
+.h2_body{
+  font-family: fantasy;
+  letter-spacing: 2px;
+  font-size: 200%;
+  margin: 5% 0% 5% 0%;
+}
+
+.div_recettes{
+  margin: 2% 10% 0% 10%;
+  display: flex;
+  border: solid black;
+}
+.div_info{
+  width: 50%;
+  border: solid red;
+}
+.div_info_p_nom{
+  border: solid blue;
+}
+.div_info_p_duree{
+  border: solid green;
+}
+.div_info_p_note{
+  border: solid yellow;
+}
+.div_img{
+  width: 50%;
+  border: solid maroon;
+}
+
+
